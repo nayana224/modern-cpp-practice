@@ -1,47 +1,4 @@
-# ==============================
-# C / C++ build outputs
-# ==============================
-*.o
-*.obj
-*.a
-*.so
-*.so.*
-*.dll
-*.dylib
-
-# Executables
-*.out
-*.exe
-
-# Local build directories
 build/
-cmake-build-*/
-CMakeFiles/
-CMakeCache.txt
-Makefile
-cmake_install.cmake
-compile_commands.json
-
-
-# ==============================
-# ROS 2 / colcon
-# ==============================
-install/
-log/
-
-
-# ==============================
-# VS Code
-# ==============================
 .vscode/
-
-
-# ==============================
-# OS / editor temporary files
-# ==============================
-.DS_Store
-Thumbs.db
-
-*~
-*.swp
-*.swo
+*.o
+*.out
